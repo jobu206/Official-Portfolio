@@ -13,37 +13,28 @@ h1 {
     color: #4aaaa5;
 }
 
-.topNav {
-    overflow: hidden;
-    background-color: #fff;
-    border-bottom: #ddd 2px solid;
+header {
+    background-color: #f8f9fa;
+    border-bottom: #ddd 1px solid;
 }
 
-.topNav a {
-    float: left;
-    color: #777;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topNav .navContainer {
+.navContainer {
     width: 960px;
     margin: auto;
 }
 
-.topNav .navContainer a.active {
+.navbar {
+    padding: 0;
+}
+
+a.navbar-brand {
     background-color: #4aaaa5;
-    color: #fff;
+    color: #fff!important;
     font-family: 'Georgia','Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: bold;
+    padding: 14px 16px;
  }
-
-.topNav-right {
-    float: right;
-}
 
 .container {
     max-width: 960px; 
