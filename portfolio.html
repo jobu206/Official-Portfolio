@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Portfolio</title>
 </head>
@@ -13,53 +14,60 @@
     <header>
         <div class="navContainer">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand">Kevin LeRoy</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand" href="index.html">Kevin LeRoy</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-                </div>
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="index.html">About</a>
+                        <a class="nav-item nav-link active" href="portfolio.html">Portfolio <span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    </div>
                 </div>
             </nav>
         </div>
     </header>
     <!-- Main Content -->
-    <section>
-        <div class="container">
-            <h1>Portfolio</h1>
-            <hr>
-            <div class="leftCol">
-                <img src="assets/images/baseball.jpg" alt="baseball">
+    <div class="container">
+        <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Portfolio</h1>
+        <hr class="mt-2 mb-5">
+        <div class="row text-center text-lg-left">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img src="assets/images/baseball.jpg" alt="baseball" class="img-fluid img-thumbnail">
                 <div class="text-block">
                     Baseball
                 </div>
-                <img src="assets/images/italy.jpg" alt="italy">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img src="assets/images/italy.jpg" alt="Italy" class="img-fluid img-thumbnail">
                 <div class="text-block">
                     Italy
                 </div>
-                <img src="assets/images/moscow.jpg" alt="moscow">
-                <div class="text-block">
-                    Moscow
-                </div>
-            </div>
-            <div class="rightCol">
-                <img src="assets/images/tornado.jpg" alt="tornado">
-                <div class="text-block">
-                    Tornado
-                </div>
-                <img src="assets/images/train.jpg" alt="train">
-                <div class="text-block">
-                    Train
-                </div>
             </div>
         </div>
-    </section>
+        <div class="row text-center text-lg-left">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img src="assets/images/moscow.jpg" alt="Moscow" class="img-fluid img-thumbnail">
+                <div class="text-block">Moscow</div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img src="assets/images/tornado.jpg" alt="Tornado" class="img-fluid img-thumbnail">
+                <div class="text-block">Tornado</div>
+            </div>
+        </div>
+        <div class="row text-center text-lg-left">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img src="assets/images/train.jpg" alt="Train" class="img-fluid img-thumbnail">
+                <div class="text-block">Train</div>
+            </div>
+        </div>
+    </div>
     <footer>
         <p>Copyright &copy;</p>
     </footer>
 </body>
+
 </html>

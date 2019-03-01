@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-  }
+  } */
 
 body {
     background-image: url('../images/dust_scratches.png');
@@ -14,7 +14,7 @@ h1 {
 }
 
 header {
-    background-color: #f8f9fa;
+    background-color: #fff;
     border-bottom: #ddd 1px solid;
 }
 
@@ -25,6 +25,7 @@ header {
 
 .navbar {
     padding: 0;
+    background-color: #fff!important;
 }
 
 a.navbar-brand {
@@ -59,7 +60,7 @@ img.profile {
     margin-right: 20px;
     margin-top: 10px;
 }
-
+/* 
 form {
     padding-top: 20px;
 }
@@ -82,7 +83,7 @@ input[type=email] {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+  } */
 
 .btn {
     background: #4aaaa5;
@@ -105,7 +106,6 @@ textarea {
 .text-block {
     position: relative;
     bottom: 80px;
-    /* width: 240px; */
     background-color: #4aaaa5;
     color: #fff;
     text-align: center;
@@ -115,36 +115,7 @@ textarea {
     font-size: 1.5em;
 }
 
-.leftCol {
-    position: relative;
-    float: left;
-    padding-right: 25px;
-    padding-top: 15px;
-}
-
-.rightCol {
-    float: left;
-}
-
-.leftCol img {
-    width: 240px;
-    height: 360px;
-}
-
-.leftCol img:hover {
-    box-shadow: 0 4px 4px #ada8a8; /* goes x-axis, y-axis, blur, (stretch factor on x-axis, not used here), colour */
-}
-
-.rightCol {
-    padding-top: 15px;
-}
-
-.rightCol img {
-    width: 240px;
-    height: 360px;
-}
-
-.rightCol img:hover {
+img:hover {
     box-shadow: 0 4px 4px #ada8a8; /* goes x-axis, y-axis, blur, (stretch factor on x-axis, not used here), colour */
 }
 
@@ -158,4 +129,5 @@ footer {
     background-color: #666;
     color: white;
     text-align: center;
+    padding-top: 10px;
 }
