@@ -13,10 +13,9 @@
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <!-- external CSS -->
     <link href="assets/css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -31,14 +30,14 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="games.html">Games</a>
+                        <a class="nav-link active" href="games.html">Games <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -47,43 +46,38 @@
             </div>
         </nav>
     </header>
-
+    
     <!-- Begin page content -->
     <main class="flex-shrink-0">
+
+            <section class="jumbotron text-center mb-0">
+                <div class="container">
+                    <h1 class="jumbotron-heading pt-5">Games <i class="fas fa-dice"></i></h1>
+                    <p class="lead text-muted">List of games I've programmed using JavaScript.</p>
+                </div>
+            </section>
+    
         <div class="container">
-            <h1 class="mt-5">About Me</h1>
+            <h1 class="mt-5">Letter Guessing Game</h1>
             <hr>
-            <img class="img-thumbnail profile" src="assets/images/profile.jpg" alt="profile">
-            <p>Thanks for checking out my bio page. This is a place where I hope to continue to refine and show my
-                budding skills in Web Development. Over the past few years, I've been fortunate enough to work with some
-                very brilliant people who have inspired me to pursue my passion for Web Development. My journey took me
-                from working in the Mortgage Industry, to working as a Contractor at MS, to now being a Technical PM for
-                a Consulting Agency. My hope is that through the skills I learn, in this Bootcamp, I will find not only
-                a job but a career.</p>
-
-            <p>I have several passions that keep me busy outside of work and school. First and foremost, I have 2 young
-                daughters who mean the world to me. We are a loving family filled with lots of laughter and lots of
-                love. When I'm not hanging with the family, I enjoy watching Sports. I especially love watching Baseball
-                and Basketball. Ever since I was a little kid growing up in the Bay Area, I loved Baseball. My
-                Grandfather used to take my Brother and me up to SF to see the Giants or A's There's nothing better than
-                going to a Baseball Game in Summer. Now that I'm grown and have a family, I get to share that passion
-                with my girls who love going to Baseball Games.</p>
-
-            <p>I'm also an avid College Basketball Fan. Love my UW Huskies and UNC Tar Heels. While I was sad to see
-                Coach Romar go, I think it was time. Sometimes you have to inject new blood to get things moving again.
-                That's what UW has done with Coach Hop. In 2 short years, he's taken them from a completely irrelevant
-                Team to the top of the Pac-12 Conference. He's got a great recruiting class coming in for next year too!
-                My most favorite Team though, is UNC. I grew up watching the likes of Kenny Smith, Brad Daugherty, Jerry
-                Stackhouse, et al. One year for an early Birthday present, my wife bought us two tickets to NC to go
-                watch the Tar Heels play. Sadly I wasn't able to see them beat Duke but we got a win nonetheless! In
-                addition to the Tar Heels, I also enjoy watching the Huskies play Basketball. Each Summer, my Brother
-                and I take time during the week to go watch the local HS Kids and incoming Freshmen play Summer League
-                Ball. You really get to see some great Basketball!</p>
+            <h4>Psychic Guessing Game</h4>
+            <ol>
+                <li>Click <a href="https://jobu206.github.io/Psychic-Game/">here</a> to play!</li>
+                <li>Rules of the Game</li>                
+                <ol type="a">
+                    <li>You get 10 chances to guess what letter the computer is thinking of.</li>
+                    <li>Choose a letter from A-Z.</li>
+                    <li>If you do not choose the correct letter, the Computer will list what letters you have chosen.</li>
+                    <li>Each incorrect guess will decrease your total number of guesses available..</li>
+                    <li>Once you have exhausted all of your chances, you will lose the game.</li>
+                    <li>Win and you get bragging rights for a couple minutes. Best of luck!!</li>
+                </ol>
+            </ol>
         </div>
     </main>
 
-    <footer class="footer mt-auto py-3 text-center">
-        <div class="container pt-2">
+    <footer class="footer mt-auto py-3 justify-between text-center">
+        <div class="container pt-4">
             <ul class="list-inline">
                 <li class="list-inline-item googleFontFooter">Made with lots of <i class="fas fa-coffee"></i> by Kevin LeRoy &copy; 2019
                 </li>
