@@ -37,6 +37,7 @@ body {
 .jumbotron {
     opacity: 0.75;
     font-size: 20px;
+    overflow: hidden;
 }
 
 .jumbotron a, .jumbotron a:hover {
