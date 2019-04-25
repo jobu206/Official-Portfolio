@@ -15,15 +15,16 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- external CSS -->
     <link href="assets/css/sticky-footer-navbar.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/cover.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body class="d-flex flex-column h-100">
     <header>
         <!-- Fixed navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-purple">
-            <h3 class="navbar-brand">Kevin LeRoy &#124; Bootstrap Portfolio</h3>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand nav-link" href="index.html">Kevin LeRoy &#124; Official Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,10 +32,13 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="technology.html">Technology</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -45,30 +49,13 @@
     </header>
 
     <!-- Begin page content -->
-    <main class="flex-shrink-0">
-
-        <section class="jumbotron text-center mb-0">
-            <div class="container">
-                <h1 class="jumbotron-heading pt-5">Portfolio <i class="fas fa-code"></i></h1>
-                <p class="lead text-muted">List of games and apps I've created using the MERN Stack as well as basic front end technologies.</p>
-            </div>
-        </section>
-
+    <main class="flex-shrink-0">        
         <div class="container">
+                <h1 class="mt-5">Portfolio <i class="fas fa-code"></i></h1>
+                <p class="lead">List of games and apps I've created using the MERN Stack as well as basic front end technologies.</p>
+                <hr>
             <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/images/psychicGameScreenshot.png" class="card-img-top" alt="psychic game screenshot">
-                        <div class="card-body">
-                            <h5 class="card-title">Psychic Game</h5>
-                            <hr>
-                            <p class="card-text">Guess the word that the Computer is thinking.</p>
-                            <a href="https://jobu206.github.io/Psychic-Game/" class="btn btn-primary"
-                                target="_blank">Play</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-md-4 mt-2">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/images/crystalCollectorScreenshot.png" class="card-img-top" alt="crystal collector screenshot">
                         <div class="card-body">
@@ -79,45 +66,48 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-md-4 mt-2">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/images/baseballTriviaScreenshot.png" class="card-img-top" alt="baseballtTrivia screenshot">
                         <div class="card-body">
                             <h5 class="card-title">Baseball Trivia</h5>
                             <hr>
-                            <p class="card-text">Timed Trivia Game testing your Baseball acumen.</p>
+                            <p class="card-text">A timed Trivia Game testing your Baseball acumen.</p>
                             <a href="https://jobu206.github.io/TriviaGame/" class="btn btn-primary"
                                 target="_blank">Play</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row" style="margin-top: 10px;">
-                <div class="col-sm-6 col-md-4">
+                <div class="col-md-4 mt-2">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/images/GIFtastic.png" class="card-img-top" alt="GIFtastic screenshot">
                         <div class="card-body">
                             <h5 class="card-title">GIFtastic</h5>
+                            <hr>
                             <p class="card-text">Clicking on button will show GIFs & animate by clicking GIF.</p>
                             <a href="https://jobu206.github.io/GIFtastic/" class="btn btn-primary" target="_blank">Play</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
+            </div>
+            <div class="row">
+                <div class="col-md-4 mt-2">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/images/trainScreenshot.png" class="card-img-top" alt="train schedule screenshot">
                         <div class="card-body">
                             <h5 class="card-title">Train Scheduler</h5>
+                            <hr>
                             <p class="card-text">Train Scheduling App showing a schedule of fictional trains.</p>
                             <a href="https://jobu206.github.io/TrainScheduler/" class="btn btn-primary" target="_blank">Play</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-md-4 mt-2">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/images/recipeBuddy_screenshot.png" class="card-img-top" alt="train schedule screenshot">
                         <div class="card-body">
                             <h5 class="card-title">Recipe Buddy</h5>
+                            <hr>
                             <p class="card-text">Assisting chefs around the world in their quest for new recipes.</p>
                             <a href="https://jobu206.github.io/RecipeBuddy/" class="btn btn-primary" target="_blank">Play</a>
                         </div>
@@ -127,21 +117,15 @@
         </div>
     </main>
 
-    <footer class="footer mt-auto py-3 justify-between text-center">
-        <div class="container pt-4">
-            <ul class="list-inline">
-                <li class="list-inline-item googleFontFooter">Made with lots of <i class="fas fa-coffee"></i> by Kevin
-                    LeRoy &copy; 2019
-                </li>
-            </ul>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="https://github.com/jobu206/"><i
-                            class="fab fa-2x fa-github"></i></a></li>
-                <li class="list-inline-item"><a href="https://www.linkedin.com/in/kevinleroy/"><i
-                            class="fab fa-2x fa-linkedin"></i></a></li>
-            </ul>
-        </div>
-    </footer>
+    <footer class="footer mt-auto py-3 text-center">
+            <div class="container pt-2">
+                <ul class="list-inline">
+                    <li class="list-inline-item googleFontFooter">Made with lots of <i class="fas fa-coffee"></i> by Kevin
+                        LeRoy &copy; 2019
+                    </li>
+                </ul>
+            </div>
+        </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

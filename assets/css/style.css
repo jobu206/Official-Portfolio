@@ -2,10 +2,6 @@ nav {
     border-bottom: 3px solid #85754d;
 }
 
-.bg-purple {
-    background-color: #4b2e83;
-}
-
 img.profile {
     float: left;
     margin-right: 20px;
@@ -24,20 +20,46 @@ img:hover {
     transition: all .2s ease;
 }
 
-.contactForm {
-    margin-top: 2em;
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    font-weight: 580;
+}
+
+.quote {
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.jumbotron {
+    opacity: 0.75;
+    font-size: 20px;
+}
+
+.jumbotron a, .jumbotron a:hover {
+    color: #212529;
+}
+
+footer {
+    border-top: 1px solid #b1b1b1;
+    color: #000;
+    opacity: 0.5;
+    font-weight: 600;
 }
 
 footer .container {
     vertical-align: middle;
 }
 
-.googleFontFooter {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 20px;
-    font-weight: bold;
+.tech {
+    color: #666;
 }
 
-.fab, .fas {
-    color: #666;
+.tech:hover {
+    color: #4b2e83;
+    transition: all 1s ease;
+    transform: rotateY(720deg);
 }
