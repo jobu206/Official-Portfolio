@@ -44,6 +44,20 @@ body {
     text-decoration: none;
 }
 
+#crystalGit {
+    display: inline;
+}
+
+.fas, .fab {
+    color: #343a40;
+    /* display: none; */
+}
+
+.fas:hover, .fab:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
 footer {
     border-top: 1px solid #b1b1b1;
     color: #000;
