@@ -41,6 +41,7 @@ body {
 
 .jumbotron a, .jumbotron a:hover {
     color: #212529;
+    text-decoration: none;
 }
 
 footer {
