@@ -1,7 +1,31 @@
 $(document).ready(function(){
-    $('#crystalBody').mouseenter(function () {
-        $('#crystalGit').show()
+    $('#crystalCard').mouseenter(function () {
+        $('#crystalGame').show()
     }).mouseleave(function () {
-        $('#crystalGit').hide();
+        $('#crystalGame').hide();
+    });
+
+    $('#baseballCard').mouseenter(function () {
+        $('#baseballTrivia').show()
+    }).mouseleave(function () {
+        $('#baseballTrivia').hide();
+    });
+
+    $('#giphyCard').mouseenter(function () {
+        $('#gifTastic').show()
+    }).mouseleave(function () {
+        $('#gifTastic').hide();
+    });
+    
+    $('#trainCard').mouseenter(function () {
+        $('#tTime').show()
+    }).mouseleave(function () {
+        $('#tTime').hide();
+    });
+    
+    $('#recipeCard').mouseenter(function () {
+        $('#rBuddy').show()
+    }).mouseleave(function () {
+        $('#rBuddy').hide();
     });
 });

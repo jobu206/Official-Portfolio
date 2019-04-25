@@ -44,8 +44,8 @@ body {
     text-decoration: none;
 }
 
-#crystalGit {
-    display: inline;
+.card {
+    width: 18rem;
 }
 
 .fas, .fab {
