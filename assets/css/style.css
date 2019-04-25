@@ -37,15 +37,12 @@ body {
 .jumbotron {
     opacity: 0.75;
     font-size: 20px;
+    overflow: hidden;
 }
 
 .jumbotron a, .jumbotron a:hover {
     color: #212529;
     text-decoration: none;
-}
-
-.card {
-    width: 18rem;
 }
 
 .fas, .fab {
@@ -56,6 +53,10 @@ body {
 .fas:hover, .fab:hover {
     color: #212529;
     text-decoration: none;
+}
+
+#crystalGame,#baseballTrivia,#gifTastic,#tTime,#rBuddy {
+    display: none;
 }
 
 footer {
