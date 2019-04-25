@@ -1,35 +1,48 @@
-# Bootstrap-Portfolio
+# Official Portfolio
+I am a Full-Stack Web Developer specializing in the MERN Stack. I have over ten years of technical experience in both QA Automation and Program Management. As a lifelong problem solver and learner, I am always seeking new ways to overcome challenges, especially with the help of programming. This could be as simple as creating Reports which detail the number of assets being utilized in a given timeframe. To something slightly more complex like creating a Database driven website to track a shopping list based on a list of ingredients. I have a strong passion for process improvement and data-driven solutions. Working together to solve problems has been a hallmark of my career.
 
-1. Redesign of Portfolio using a blank Bootstrap 4.3.1 Template.
-    1. https://getbootstrap.com/docs/4.1/examples/sticky-footer-navbar/
+![Screenshot](./assets/images/Official-Portfolio_screenshot.png)
 
-## Color Scheme
+## Installation
 
-Rather than use the example given in the original design, I took the liberty to create my own. I decided upon the Purple and gold to match what that of The University of Washington. Their color scheme can be found here: http://www.washington.edu/brand/graphic-elements/primary-color-palette/
+Best viewed in Chrome Browser.
 
-## Overview of Content
+OS X:
 
-### Styles
-1. Added sticky footer CSS file to ensure footer stayed as is.
-    1. This is documented <a href="https://getbootstrap.com/docs/4.1/examples/sticky-footer-navbar/sticky-footer-navbar.css">here.</a>
+```sh
+brew cask install google-chrome
+```
 
-2. Utilized Font Awesome for a few icons (Camera, Coffee Cup, GitHub & LinkedIn).
-    1. https://fontawesome.com/start
-3. Added Google Fonts to Footer to style text.
-    1. https://fonts.google.com/
+Linux/Ubuntu 64-Bit:
 
-### Navigation
+```sh
+sudo apt install chromium-browser
+```
 
-1. Aligned Navigation to right of container
-2. `<h3>` element for navbar-brand.
-3. 1px solid border at bottom of nav colored #85754d.
-4. Enabled Hamburger Menu
+Windows:
+
+```sh
+https://www.google.com/chrome/
+```
+
+## Technologies utilized
+
+1. HTML5
+1. CSS3
+1. Bootstrap 4.3.1
+1. jQuery
+
+## Meta
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+[https://github.com/jobu206/github-link](https://github.com/jobu206/)
 
 
-## Built With
+## Contributing
 
-* [Bootstrap v4.3.1](https://getbootstrap.com/) - The web framework used
-
-## Author
-
-* **Kevin LeRoy** - [Jobu206](https://github.com/Jobu206)
+1. Fork it (<https://github.com/jobu206/Official-Portfolio/fork>)
+2. Create your feature branch (`git checkout -b feature/Official-Portfolio`)
+3. Commit your changes (`git commit -am 'Add some yourMessageHere'`)
+4. Push to the branch (`git push origin feature/Official-Portfolio`)
+5. Create a new Pull Request
