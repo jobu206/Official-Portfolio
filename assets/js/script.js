@@ -28,4 +28,10 @@ $(document).ready(function(){
     }).mouseleave(function () {
         $('#rBuddy').hide();
     });
+
+    $('#friendCard').mouseenter(function () {
+        $('#fFinder').show()
+    }).mouseleave(function () {
+        $('#fFinder').hide();
+    });
 });
