@@ -12,14 +12,6 @@ img.profile {
     border: 2px solid #dee2e6;
 }
 
-img:hover {
-    -moz-box-shadow: 1px 1px 5px #999;
-    -webkit-box-shadow: 1px 1px 5px #999;
-    box-shadow: 1px 1px 5px #999;
-    -webkit-transition: all .2s ease;
-    transition: all .2s ease;
-}
-
 body {
     font-family: 'Comfortaa', cursive;
     font-size: 18px;
@@ -74,8 +66,14 @@ footer .container {
     color: #666;
 }
 
+img.tech {
+    max-width: 110px;
+    min-width: 75px;
+    align-self: center;
+}
+
 .tech:hover {
     color: #4b2e83;
-    transition: all 1s ease;
+    transition: all 1.5s ease;
     transform: rotateY(720deg);
 }
