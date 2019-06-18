@@ -5,10 +5,10 @@ $(document).ready(function(){
         $('#crystalGame').hide();
     });
 
-    $('#baseballCard').mouseenter(function () {
-        $('#baseballTrivia').show()
+    $('#parkCard').mouseenter(function () {
+        $('#pSmart').show()
     }).mouseleave(function () {
-        $('#baseballTrivia').hide();
+        $('#pSmart').hide();
     });
 
     $('#giphyCard').mouseenter(function () {
