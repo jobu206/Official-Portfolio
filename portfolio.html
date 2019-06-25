@@ -60,48 +60,45 @@
             <hr>
             <div class="row pt-2">
                 <div class="card-deck mx-auto">
-                    <div class="card" id="crystalCard">
-                        <img src="assets/images/crystalCollectorScreenshot.png" class="card-img-top"
-                            alt="crystal collector screenshot">
-                        <div class="card-body">
-                            <h5 class="card-title">Crystal Collector</h5>
-                            <hr>
-                            <p class="card-text">Click the Crystals to try and match the Magic Number.</p>
-                            <div id="crystalGame">
-                                <a href="https://jobu206.github.io/unit-4-game/" target="_blank"
-                                    class="fas fa-2x fa-gem px-md-4"></a>
-                                <a href="https://github.com/jobu206/unit-4-game" target="_blank"
-                                    class="fab fa-2x fa-github-square px-md-4"></a>
-                            </div>
-                        </div>
-                    </div>
                     <div class="card" id="trainCard">
                         <img src="assets/images/trainScreenshot.png" class="card-img-top"
                             alt="train schedule screenshot">
-                        <div class="card-body">
+                        <div class="card-img-overlay trainOverlay text-white">
                             <h5 class="card-title">Train Scheduler</h5>
-                            <hr>
-                            <p class="card-text">Train Scheduling App showing a schedule of fictional trains.</p>
-                            <div id="tTime">
+                            <p class="card-text">Moment.js & Firebase - Track arrival and departure times of incoming & outgoing trains.</p>
+                            <div class="tTime">
                                 <a href="https://jobu206.github.io/TrainScheduler/"
-                                    class="fas fa-2x fa-subway px-md-4"></a>
+                                    class="fas fa-2x fa-subway px-md-4 tech"></a>
                                 <a href="https://github.com/jobu206/TrainScheduler/"
+                                    class="fab fa-2x fa-github-square px-md-4 tech" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" id="crystalCard">
+                        <img src="assets/images/crystalCollectorScreenshot.png" class="card-img-top"
+                            alt="train schedule screenshot">
+                        <div class="card-img-overlay crystalOverlay text-white">
+                            <h5 class="card-title">Train Scheduler</h5>
+                            <p class="card-text">Train Scheduling App showing a schedule of fictional trains.</p>
+                            <div class="crystalLinks">
+                                <a href="https://jobu206.github.io/Crystal-Collector/"
+                                    class="fas fa-2x fa-subway px-md-4"></a>
+                                <a href="https://github.com/jobu206/Crystal-Collector"
                                     class="fab fa-2x fa-github-square px-md-4" target="_blank"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="card" id="giphyCard">
-                        <img src="assets/images/GIFtastic.png" class="card-img-top screenshots"
-                            alt="GIFtastic screenshot">
-                        <div class="card-body">
-                            <h5 class="card-title">GIFtastic</h5>
-                            <hr>
-                            <p class="card-text">Clicking on button will show GIFs & animate by clicking GIF.</p>
-                            <div id="gifTastic">
-                                <a href="https://jobu206.github.io/GIFtastic/" class="fas fa-2x fa-magic px-md-4"
-                                    target="_blank"></a>
-                                <a href="https://github.com/jobu206/GIFtastic/"
-                                    class="fab fa-2x fa-github-square px-md-4" target="_blank"></a>
+                    <div class="card" id="friendCard">
+                        <img src="assets/images/friendFinderHome.jpg" class="card-img-top"
+                            alt="train schedule screenshot">
+                        <div class="card-img-overlay friendOverlay text-white">
+                            <h5 class="card-title">Friend Finder</h5>
+                            <p class="card-text">Full Stack Web Application using ExpressJS & Node to help you find your new best friend.</p>
+                            <div class="friendLinks">
+                                <a href="https://jobu206.github.io/TrainScheduler/"
+                                    class="fas fa-2x fa-subway px-md-4 tech"></a>
+                                <a href="https://github.com/jobu206/TrainScheduler/"
+                                    class="fab fa-2x fa-github-square px-md-4 tech" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -112,11 +109,10 @@
                     <div class="card" id="recipeCard">
                         <img src="assets/images/recipeBuddy_screenshot.png" class="card-img-top"
                             alt="recipe screenshot">
-                        <div class="card-body">
-                            <h5 class="card-title">Recipe Buddy</h5>
-                            <hr>
+                        <div class="card-img-overlay recipeOverlay">
+                            <h5 class="card-title">Recipe Buddy - Team Project</h5>
                             <p class="card-text">Assisting chefs around the world in their quest for new recipes.</p>
-                            <div id="rBuddy">
+                            <div id="recipeLinks">
                                 <a href="https://jobu206.github.io/RecipeBuddy/" class="fas fa-2x fa-utensils px-md-4"
                                     target="_blank"></a>
                                 <a href="https://github.com/jobu206/RecipeBuddy/"
@@ -124,29 +120,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card" id="friendCard">
-                        <img src="assets/images/friendFinderHome.jpg" class="card-img-top" alt="recipe screenshot">
-                        <div class="card-body">
-                            <h5 class="card-title">Supervillain Friend Finder</h5>
-                            <hr>
-                            <p class="card-text">ExpressJS & Node come together to help you find your new best friend.
-                            </p>
-                            <div id="fFinder">
-                                <a href="https://supervillainfriends.herokuapp.com" class="fas fa-2x fa-user px-md-4"
+                    <div class="card" id="burgerCard">
+                        <img src="assets/images/burgerScreenshot.png" class="card-img-top" alt="recipe screenshot">
+                        <div class="card-img-overlay burgerOverlay">
+                            <h5 class="card-title">Eat da Burger!</h5>
+                            <p class="card-text">Full Stack MVC Application deployed on Heroku using Bootstrap, Handlebars, Node, Express & MySQL.</p>
+                            <div id="burgerLinks">
+                                <a href="https://obscure-wildwood-75967.herokuapp.com/" class="fas fa-2x fa-user px-md-4"
                                     target="_blank"></a>
-                                <a href="https://github.com/jobu206/FriendFinder/"
+                                <a href="https://github.com/jobu206/Eat-Da-Burger"
                                     class="fab fa-2x fa-github-square px-md-4" target="_blank"></a>
                             </div>
                         </div>
                     </div>
                     <div class="card" id="parkCard">
                         <img src="assets/images/parkSmart.png" class="card-img-top" alt="parkSmart screenshot">
-                        <!-- <img src="assets/images/parkSmartDemo.png" class="card-img-top" alt="parkSmart screenshot"> -->
-                        <div class="card-body">
-                            <h5 class="card-title">ParkSmart</h5>
-                            <hr>
-                            <p class="card-text">Full Stack MVC Application using Bootstrap, Node, Express & MySQL on
-                                Heroku with a team of three others.</p>
+                        <div class="card-img-overlay parkSmartOverlay">
+                            <h5 class="card-title">ParkSmart - Team Project</h5>
+                            <p class="card-text">Full Stack MVC Application deployed on Heroku using Bootstrap, Node, Express & MySQL.</p>
                             <div id="pSmart">
                                 <a href="https://parksmart-uw.herokuapp.com" class="fas fa-2x fa-car px-md-4"
                                     target="_blank"></a>
