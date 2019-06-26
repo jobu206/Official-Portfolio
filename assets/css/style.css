@@ -38,18 +38,18 @@ body {
 }
 
 .fas, .fab {
-    color: #343a40;
+    color: #000;
     /* display: none; */
 }
 
-.fas:hover, .far:hover, .fab:hover {
-    color: #4b2e83;
+.fas:hover, .fab:hover {
+    color: #212529;
     text-decoration: none;
 }
 
-#crystalGame,#baseballTrivia,#gifTastic,#tTime,#rBuddy,#pSmart {
+/* .trainOverlay, .crystalOverlay, .friendOverlay, .recipeOverlay, .burgerOverlay, .parkSmartOverlay {
     display: none;
-}
+} */
 
 footer {
     border-top: 1px solid #b1b1b1;
@@ -62,10 +62,6 @@ footer .container {
     vertical-align: middle;
 }
 
-.tech {
-    color: #666;
-}
-
 img.tech {
     max-width: 110px;
     min-width: 75px;
@@ -73,6 +69,13 @@ img.tech {
 }
 
 .tech:hover {
+    color: #4b2e83;
     transition: all 1.5s ease;
     transform: rotateY(720deg);
+}
+
+.trainOverlay:hover, .crystalOverlay:hover, .friendOverlay:hover, .recipeOverlay:hover, .burgerOverlay:hover, .parkSmartOverlay:hover {
+    opacity: 0.85;
+    background: #34405a;
+    color: #fff;
 }

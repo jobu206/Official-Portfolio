@@ -1,37 +1,49 @@
 $(document).ready(function(){
-    $('#crystalCard').mouseenter(function () {
-        $('#crystalGame').show()
-    }).mouseleave(function () {
-        $('#crystalGame').hide();
-    });
-
-    $('#parkCard').mouseenter(function () {
-        $('#pSmart').show()
-    }).mouseleave(function () {
-        $('#pSmart').hide();
-    });
-
-    $('#giphyCard').mouseenter(function () {
-        $('#gifTastic').show()
-    }).mouseleave(function () {
-        $('#gifTastic').hide();
-    });
-    
     $('#trainCard').mouseenter(function () {
-        $('#tTime').show()
+        $('.trainOverlay').show()
+        $('.trainLinks').show()
     }).mouseleave(function () {
-        $('#tTime').hide();
+        $('.trainOverlay').hide();
+        $('.trainLinks').hide();
     });
-    
-    $('#recipeCard').mouseenter(function () {
-        $('#rBuddy').show()
+
+    $('#crystalCard').mouseenter(function () {
+        $('.crystalOverlay').show()
+        $('.crystalLinks').show()
     }).mouseleave(function () {
-        $('#rBuddy').hide();
+        $('.crystalOverlay').hide();
+        $('.crystalLinks').hide();
     });
 
     $('#friendCard').mouseenter(function () {
-        $('#fFinder').show()
+        $('.friendOverlay').show()
+        $('.friendLinks').show()
     }).mouseleave(function () {
-        $('#fFinder').hide();
+        $('.friendOverlay').hide();
+        $('.friendLinks').hide();
+    });
+    
+    $('#recipeCard').mouseenter(function () {
+        $('.recipeOverlay').show()
+        $('.recipeLinks').show()
+    }).mouseleave(function () {
+        $('.recipeOverlay').hide();
+        $('.recipeLinks').hide();
+    });
+    
+    $('#burgerCard').mouseenter(function () {
+        $('.burgerOverlay').show()
+        $('.burgerLinks').show()
+    }).mouseleave(function () {
+        $('.burgerOverlay').hide();
+        $('.burgerLinks').hide();
+    });
+
+    $('#parkCard').mouseenter(function () {
+        $('.parkSmartOverlay').show()
+        $('.parkSmartLinks').show()
+    }).mouseleave(function () {
+        $('.parkSmartOverlay').hide();
+        $('.parkSmartLinks').hide();
     });
 });
