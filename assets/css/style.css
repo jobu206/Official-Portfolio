@@ -47,9 +47,9 @@ body {
     text-decoration: none;
 }
 
-#crystalGame,#baseballTrivia,#gifTastic,#tTime,#rBuddy {
+/* .trainOverlay, .crystalOverlay, .friendOverlay, .recipeOverlay, .burgerOverlay, .parkSmartOverlay {
     display: none;
-}
+} */
 
 footer {
     border-top: 1px solid #b1b1b1;
@@ -74,7 +74,8 @@ img.tech {
     transform: rotateY(720deg);
 }
 
-.trainOverlay:hover, .crystalOverlay:hover, .friendOverlay:hover  {
+.trainOverlay:hover, .crystalOverlay:hover, .friendOverlay:hover, .recipeOverlay:hover, .burgerOverlay:hover, .parkSmartOverlay:hover {
     opacity: 0.85;
     background: #34405a;
+    color: #fff;
 }
