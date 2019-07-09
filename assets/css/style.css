@@ -74,6 +74,10 @@ img.tech {
     transform: rotateY(720deg);
 }
 
+.card-image-overlay {
+    display: none;
+}
+
 .trainOverlay:hover, .crystalOverlay:hover, .friendOverlay:hover, .recipeOverlay:hover, .burgerOverlay:hover, .parkSmartOverlay:hover {
     opacity: 0.85;
     background: #34405a;
