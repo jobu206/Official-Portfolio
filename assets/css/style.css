@@ -74,7 +74,7 @@ img.tech {
     transform: rotateY(720deg);
 }
 
-.card-image-overlay {
+.card-img-overlay {
     display: none;
 }
 
