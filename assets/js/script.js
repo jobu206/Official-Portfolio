@@ -46,4 +46,28 @@ $(document).ready(function(){
         $('.parkSmartOverlay').hide();
         $('.parkSmartLinks').hide();
     });
+
+    $('#reactCard').mouseenter(function () {
+        $('.reactOverlay').show()
+        $('.reactLinks').show()
+    }).mouseleave(function () {
+        $('.reactOverlay').hide();
+        $('.reactLinks').hide();
+    });
+
+    $('#mongoNewsCard').mouseenter(function () {
+        $('.mongoNewsOverlay').show()
+        $('.mongoNewsLinks').show()
+    }).mouseleave(function () {
+        $('.mongoNewsOverlay').hide();
+        $('.mongoNewsLinks').hide();
+    });
+
+    $('#googleBooksCard').mouseenter(function () {
+        $('.googleBooksOverlay').show()
+        $('.googleBooksLinks').show()
+    }).mouseleave(function () {
+        $('.googleBooksOverlay').hide();
+        $('.googleBooksLinks').hide();
+    });
 });

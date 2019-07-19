@@ -69,7 +69,7 @@ img.tech {
 }
 
 .tech:hover {
-    color: #4b2e83;
+    color: #bea6ff;
     transition: all 1.5s ease;
     transform: rotateY(720deg);
 }
@@ -78,7 +78,9 @@ img.tech {
     display: none;
 }
 
-.trainOverlay:hover, .crystalOverlay:hover, .friendOverlay:hover, .recipeOverlay:hover, .burgerOverlay:hover, .parkSmartOverlay:hover {
+.trainOverlay:hover, .crystalOverlay:hover, .friendOverlay:hover, .recipeOverlay:hover, 
+.burgerOverlay:hover, .parkSmartOverlay:hover, .mongoNewsOverlay:hover, .reactOverlay:hover, 
+.googleBooksOverlay {
     opacity: 0.85;
     background: #34405a;
     color: #fff;
