@@ -1,227 +1,366 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Online Portfolio">
-    <meta name="author" content="Kevin LeRoy">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Online Portfolio" />
+    <meta name="author" content="Kevin LeRoy" />
     <title>Kevin's Portfolio</title>
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
     <!-- Calling jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
     <!-- external CSS -->
-    <link href="assets/css/sticky-footer-navbar.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/cover.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link href="assets/css/sticky-footer-navbar.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/cover.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body class="d-flex flex-column h-100">
+  <body class="d-flex flex-column h-100">
     <header>
-        <!-- Fixed navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand nav-link" href="index.html">Kevin LeRoy &#124; Official Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="portfolio.html">Portfolio <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="technology.html">Technology</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand nav-link" href="index.html"
+          >Kevin LeRoy &#124; Official Portfolio</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarCollapse"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="portfolio.html"
+                >Portfolio <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="technology.html">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <!-- Begin page content -->
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Portfolio <i class="fas fa-code"></i></h1>
-            <p class="lead">List of games and apps I've created using the MERN Stack as well as basic front end
-                technologies.</p>
-            <hr>
-            <div class="row pt-2">
-                <div class="card-deck mx-auto">
-                    <div class="card" id="trainCard">
-                        <img src="assets/images/trainScreenshot.png" class="card-img-top"
-                            alt="train schedule screenshot">
-                        <div class="card-img-overlay trainOverlay text-white">
-                            <h5 class="card-title">Train Scheduler</h5>
-                            <p class="card-text">Moment.js & Firebase - Track arrival and departure times of incoming &
-                                outgoing trains.</p>
-                            <div class="trainLinks">
-                                <a href="https://jobu206.github.io/TrainScheduler/"
-                                    class="fas fa-2x fa-subway px-md-4 tech" target="_blank"></a>
-                                <a href="https://github.com/jobu206/TrainScheduler/"
-                                    class="fab fa-2x fa-github-square px-md-4 tech" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" id="crystalCard">
-                        <img src="assets/images/crystalCollectorScreenshot.png" class="card-img-top"
-                            alt="crystal collector screenshot">
-                        <div class="card-img-overlay crystalOverlay text-white">
-                            <h5 class="card-title">Crystal Collector</h5>
-                            <p class="card-text">jQuery & Bootstrap - Click crystals to try and match the randomly
-                                chosen number.</p>
-                            <div class="crystalLinks">
-                                <a href="https://jobu206.github.io/Crystal-Collector/"
-                                    class="fas fa-2x fa-subway px-md-4 tech" target="_blank"></a>
-                                <a href="https://github.com/jobu206/Crystal-Collector"
-                                    class="fab fa-2x fa-github-square px-md-4 tech" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" id="friendCard">
-                        <img src="assets/images/friendFinderHome.jpg" class="card-img-top"
-                            alt="friend finder screenshot">
-                        <div class="card-img-overlay friendOverlay text-white">
-                            <h5 class="card-title">Friend Finder</h5>
-                            <p class="card-text">Full Stack Web App using ExpressJS & Node to help you find your new
-                                best friend.</p>
-                            <div class="friendLinks">
-                                <a href="https://supervillainfriends.herokuapp.com/"
-                                    class="fas fa-2x fa-user px-md-4 tech" target="_blank"></a>
-                                <a href="https://github.com/jobu206/FriendFinder"
-                                    class="fab fa-2x fa-github-square px-md-4 tech" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <h1 class="mt-5">Portfolio <i class="fas fa-code"></i></h1>
+        <p class="lead">
+          List of games and apps I've created using the MERN Stack as well as
+          basic front end technologies.
+        </p>
+        <hr />
+        <div class="row pt-2">
+          <div class="card-deck mx-auto">
+            <div class="card" id="trainCard">
+              <img
+                src="assets/images/trainScreenshot.png"
+                class="card-img-top"
+                alt="train schedule screenshot"
+              />
+              <div class="card-img-overlay trainOverlay text-white">
+                <h5 class="card-title">Train Scheduler</h5>
+                <p class="card-text">
+                  Moment.js & Firebase - Track arrival and departure times of
+                  incoming & outgoing trains.
+                </p>
+                <div class="trainLinks">
+                  <a
+                    href="https://jobu206.github.io/TrainScheduler/"
+                    class="fas fa-2x fa-subway px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="https://github.com/jobu206/TrainScheduler/"
+                    class="fab fa-2x fa-github-square px-md-4 tech"
+                    target="_blank"
+                  ></a>
                 </div>
+              </div>
             </div>
-            <div class="row">
-                <div class="card-deck mx-auto mt-4">
-                    <div class="card" id="recipeCard">
-                        <img src="assets/images/recipeBuddy_screenshot.png" class="card-img-top"
-                            alt="recipe screenshot">
-                        <div class="card-img-overlay recipeOverlay text-white">
-                            <h5 class="card-title">Recipe Buddy - Team Project</h5>
-                            <p class="card-text">Bootstrap, JavaScript & jQuery - Assisting chefs around the world in
-                                their quest for new recipes.</p>
-                            <div id="recipeLinks">
-                                <a href="https://jobu206.github.io/RecipeBuddy/"
-                                    class="fas fa-2x fa-utensils px-md-4 tech" target="_blank"></a>
-                                <a href="https://github.com/jobu206/RecipeBuddy/"
-                                    class="fab fa-2x fa-github-square px-md-4 tech" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" id="burgerCard">
-                        <img src="assets/images/burgerScreenshot.png" class="card-img-top" alt="burger screenshot">
-                        <div class="card-img-overlay burgerOverlay text-white">
-                            <h5 class="card-title">Eat da Burger!</h5>
-                            <p class="card-text">Full Stack MVC Application deployed on Heroku using Bootstrap,
-                                Handlebars, Node, Express & MySQL.</p>
-                            <div id="burgerLinks">
-                                <a href="https://eatdaburger206.herokuapp.com/"
-                                    class="fas fa-2x fa-hamburger px-md-4 tech" target="_blank"></a>
-                                <a href="https://github.com/jobu206/Eat-Da-Burger"
-                                    class="fab fa-2x fa-github-square px-md-4 tech" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" id="parkCard">
-                        <img src="assets/images/parkSmart.png" class="card-img-top" alt="parkSmart screenshot">
-                        <div class="card-img-overlay parkSmartOverlay text-white">
-                            <h5 class="card-title">ParkSmart - Team Project</h5>
-                            <p class="card-text">Full Stack MVC Application deployed on Heroku using Bootstrap, Node,
-                                Express & MySQL.</p>
-                            <div id="parkSmartLinks">
-                                <a href="https://parksmart206.herokuapp.com" class="fas fa-2x fa-parking px-md-4 tech"
-                                    target="_blank"></a>
-                                <a href="https://github.com/jobu206/ParkSmart"
-                                    class="fab fa-2x fa-github-square px-md-4 tech" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card" id="friendCard">
+              <img
+                src="assets/images/friendFinderHome.jpg"
+                class="card-img-top"
+                alt="friend finder screenshot"
+              />
+              <div class="card-img-overlay friendOverlay text-white">
+                <h5 class="card-title">Friend Finder</h5>
+                <p class="card-text">
+                  Full Stack Web App using ExpressJS & Node to help you find
+                  your new best friend.
+                </p>
+                <div class="friendLinks">
+                  <a
+                    href="https://supervillainfriends.herokuapp.com/"
+                    class="fas fa-2x fa-user px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="https://github.com/jobu206/FriendFinder"
+                    class="fab fa-2x fa-github-square px-md-4 tech"
+                    target="_blank"
+                  ></a>
                 </div>
+              </div>
             </div>
-            <div class="row">
-                <div class="card-deck mx-auto mt-4">
-                    <div class="card" id="reactCard">
-                        <img src="assets/images/reactMemoryGame.png" class="card-img-top" alt="burger screenshot">
-                        <div class="card-img-overlay reactOverlay text-white">
-                            <h5 class="card-title">King of the Hill</h5>
-                            <p class="card-text">A memory game created in React.</p>
-                            <div id="reactLinks pb-4">
-                                <a href="https://jobu206.github.io/remember-me/"
-                                    class="fas fa-2x fa-gamepad px-md-4 tech" target="_blank"></a>
-                                <a href="https://github.com/jobu206/remember-me"
-                                    class="fab fa-2x fa-github-square px-md-4 tech" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" id="mongoNewsCard">
-                        <img src="assets/images/mongoNewsScraper.png" alt="mongoNews" class="card-img-top">
-                        <div class="card-img-overlay mongoNewsOverlay text-white" style="display: none">
-                            <h5 class="card-title">Mongo News Scraping Network</h5>
-                            <p class="card-text">MVC Web App using Express, Handlebars, MongoDB, Cheerio & Axios to
-                                scrape sites for news.</p>
-                            <div id="mongoNewsLinks" class="pb-4">
-                                <a href="https://mongonews206.herokuapp.com/"
-                                    class="fas fa-2x fa-newspaper px-md-4 tech" target="_blank"></a>
-                                <a href="https://github.com/jobu206/MongoNewsScraper"
-                                    class="fab fa-2x fa-github-square px-md-4 tech" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" id="googleBooksCard">
-                        <img src="assets/images/googleBooks.png" class="card-img-top" alt="google books screenshot">
-                        <div class="card-img-overlay googleBooksOverlay text-white">
-                            <h5 class="card-title">Google Books Search</h5>
-                            <p class="card-text">Full Stack MERN Application using Axios to search the Google Books Site.</p>
-                            <div id="googleBooksLinks">
-                                <a href="https://googlebooksearch206.herokuapp.com/" class="fas fa-2x fa-book px-md-4 tech"
-                                    target="_blank"></a>
-                                <a href="https://github.com/jobu206/google-book-search"
-                                    class="fab fa-2x fa-github-square px-md-4 tech" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card" id="recipeCard">
+              <img
+                src="assets/images/recipeBuddy_screenshot.png"
+                class="card-img-top"
+                alt="recipe screenshot"
+              />
+              <div class="card-img-overlay recipeOverlay text-white">
+                <h5 class="card-title">Recipe Buddy - Team Project</h5>
+                <p class="card-text">
+                  Bootstrap, JavaScript & jQuery - Assisting chefs around the
+                  world in their quest for new recipes.
+                </p>
+                <div id="recipeLinks">
+                  <a
+                    href="https://jobu206.github.io/RecipeBuddy/"
+                    class="fas fa-2x fa-utensils px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="https://github.com/jobu206/RecipeBuddy/"
+                    class="fab fa-2x fa-github-square px-md-4 tech"
+                    target="_blank"
+                  ></a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="card-deck mx-auto mt-4">
+            <div class="card" id="burgerCard">
+              <img
+                src="assets/images/burgerScreenshot.png"
+                class="card-img-top"
+                alt="burger screenshot"
+              />
+              <div class="card-img-overlay burgerOverlay text-white">
+                <h5 class="card-title">Eat da Burger!</h5>
+                <p class="card-text">
+                  Full Stack MVC Application deployed on Heroku using Bootstrap,
+                  Handlebars, Node, Express & MySQL.
+                </p>
+                <div id="burgerLinks">
+                  <a
+                    href="https://eatdaburger206.herokuapp.com/"
+                    class="fas fa-2x fa-hamburger px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="https://github.com/jobu206/Eat-Da-Burger"
+                    class="fab fa-2x fa-github-square px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="parkCard">
+              <img
+                src="assets/images/parkSmart.png"
+                class="card-img-top"
+                alt="parkSmart screenshot"
+              />
+              <div class="card-img-overlay parkSmartOverlay text-white">
+                <h5 class="card-title">ParkSmart - Team Project</h5>
+                <p class="card-text">
+                  Full Stack MVC Application deployed on Heroku using Bootstrap,
+                  Node, Express & MySQL.
+                </p>
+                <div id="parkSmartLinks">
+                  <a
+                    href="https://parksmart206.herokuapp.com"
+                    class="fas fa-2x fa-parking px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="https://github.com/jobu206/ParkSmart"
+                    class="fab fa-2x fa-github-square px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="reactCard">
+              <img
+                src="assets/images/reactMemoryGame.png"
+                class="card-img-top"
+                alt="burger screenshot"
+              />
+              <div class="card-img-overlay reactOverlay text-white">
+                <h5 class="card-title">King of the Hill</h5>
+                <p class="card-text">A memory game created in React.</p>
+                <div id="reactLinks pb-4">
+                  <a
+                    href="https://jobu206.github.io/remember-me/"
+                    class="fas fa-2x fa-gamepad px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="https://github.com/jobu206/remember-me"
+                    class="fab fa-2x fa-github-square px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-deck mx-auto mt-4">
+            <div class="card" id="mongoNewsCard">
+              <img
+                src="assets/images/mongoNewsScraper.png"
+                alt="mongoNews"
+                class="card-img-top"
+              />
+              <div
+                class="card-img-overlay mongoNewsOverlay text-white"
+                style="display: none"
+              >
+                <h5 class="card-title">Mongo News Scraping Network</h5>
+                <p class="card-text">
+                  MVC Web App using Express, Handlebars, MongoDB, Cheerio &
+                  Axios to scrape sites for news.
+                </p>
+                <div id="mongoNewsLinks" class="pb-4">
+                  <a
+                    href="https://mongonews206.herokuapp.com/"
+                    class="fas fa-2x fa-newspaper px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="https://github.com/jobu206/MongoNewsScraper"
+                    class="fab fa-2x fa-github-square px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="googleBooksCard">
+              <img
+                src="assets/images/googleBooks.png"
+                class="card-img-top"
+                alt="google books screenshot"
+              />
+              <div class="card-img-overlay googleBooksOverlay text-white">
+                <h5 class="card-title">Google Books Search</h5>
+                <p class="card-text">
+                  Full Stack MERN Application using Axios to search the Google
+                  Books Site.
+                </p>
+                <div id="googleBooksLinks">
+                  <a
+                    href="https://googlebooksearch206.herokuapp.com/"
+                    class="fas fa-2x fa-book px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="https://github.com/jobu206/google-book-search"
+                    class="fab fa-2x fa-github-square px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="loCollabCard">
+              <img
+                src="assets/images/loCollab-screenshot.png"
+                class="card-img-top"
+                alt="locollab screenshot"
+              />
+              <div class="card-img-overlay locollabOverlay text-white">
+                <h5 class="card-title">LoCollab</h5>
+                <p class="card-text">
+                  Full Stack MERN Application using PassportJS to enable local networking
+                </p>
+                <div id="locollabLinks">
+                  <a
+                    href="https://locollab.herokuapp.com/"
+                    class="fas fa-2x fa-cogs px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="https://github.com/jlaceda/locollab"
+                    class="fab fa-2x fa-github-square px-md-4 tech"
+                    target="_blank"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="footer mt-auto py-3 text-center">
-        <div class="container pt-2">
-            <ul class="list-inline">
-                <li class="list-inline-item googleFontFooter">Made with lots of <i class="fas fa-coffee"></i> by Kevin
-                    LeRoy &copy; 2019
-                </li>
-            </ul>
-        </div>
+      <div class="container pt-2">
+        <ul class="list-inline">
+          <li class="list-inline-item googleFontFooter">
+            Made with lots of <i class="fas fa-coffee"></i> by Kevin LeRoy
+            &copy; 2019
+          </li>
+        </ul>
+      </div>
     </footer>
     <!-- Optional JavaScript -->
     <script src="assets/js/script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

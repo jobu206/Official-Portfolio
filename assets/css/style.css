@@ -80,7 +80,7 @@ img.tech {
 
 .trainOverlay:hover, .crystalOverlay:hover, .friendOverlay:hover, .recipeOverlay:hover, 
 .burgerOverlay:hover, .parkSmartOverlay:hover, .mongoNewsOverlay:hover, .reactOverlay:hover, 
-.googleBooksOverlay {
+.googleBooksOverlay, .locollabOverlay {
     opacity: 0.85;
     background: #34405a;
     color: #fff;

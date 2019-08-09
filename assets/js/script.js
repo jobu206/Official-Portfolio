@@ -70,4 +70,11 @@ $(document).ready(function(){
         $('.googleBooksOverlay').hide();
         $('.googleBooksLinks').hide();
     });
+    $('#loCollabCard').mouseenter(function () {
+        $('.locollabOverlay').show()
+        $('.locollabLinks').show()
+    }).mouseleave(function () {
+        $('.locollabOverlay').hide();
+        $('.locollabLinks').hide();
+    });
 });
