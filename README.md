@@ -1,4 +1,4 @@
-# Official Portfolio
+# DEPRECATION NOTICE -- NEW PORTFOLIO AT md-portfolio
 I am a Full-Stack Web Developer specializing in the MERN Stack. I have over ten years of technical experience in both QA Automation and Program Management. As a lifelong problem solver and learner, I am always seeking new ways to overcome challenges, especially with the help of programming. This could be as simple as creating Reports which detail the number of assets being utilized in a given timeframe. To something slightly more complex like creating a Database driven website to track a shopping list based on a list of ingredients. I have a strong passion for process improvement and data-driven solutions. Working together to solve problems has been a hallmark of my career.
 
 ![Screenshot](./assets/images/Official-Portfolio_screenshot.png)
